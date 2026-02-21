@@ -1,5 +1,5 @@
 ** Drc report for ZSWatch-Watch.kicad_pcb **
-** Created on 2026-02-20T19:27:40+0000 **
+** Created on 2026-02-21T13:06:36+0000 **
 
 ** Found 64 DRC violations **
 [copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.1250 mm; actual 0.0000 mm)
