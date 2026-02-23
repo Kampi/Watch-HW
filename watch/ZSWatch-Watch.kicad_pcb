@@ -176,7 +176,7 @@
 	(property "RELEASE_TITLE_1.2.0" "Version 1.2.0 not found.")
 	(property "RELEASE_TITLE_1.2.1" "Version 1.2.1 not found.")
 	(property "RELEASE_TITLE_UNRELEASED" "Version Unreleased not found.")
-	(property "REVISION" "")
+	(property "REVISION" "X.Y.Z")
 	(property "SHEET_NAME_1" "Cover Page")
 	(property "SHEET_NAME_10" "......................................")
 	(property "SHEET_NAME_11" "......................................")
@@ -20975,7 +20975,7 @@
 		(uuid "aacde130-6dbc-41bc-ad74-3cf95516cad0")
 	)
 	(gr_text "${REVISION}"
-		(at 187.425537 138.528148 0)
+		(at 190.8 138.5 0)
 		(layer "B.Cu")
 		(uuid "ea01a434-38c5-456f-9c01-d01e58240247")
 		(effects
