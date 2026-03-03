@@ -291,7 +291,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ github.ref_name }}
-          commit_message: Push outputs from CI/CD ($(date +'%Y-%m-%d'))
+          commit_message: Push outputs from CI/CD (${{ env.DATE }})
 
   deploy:
     needs: generate_outputs
