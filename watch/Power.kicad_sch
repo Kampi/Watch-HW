@@ -1365,7 +1365,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1386,7 +1386,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V0"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1412,7 +1412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1430,7 +1430,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V0_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1468,7 +1468,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1723,7 +1723,7 @@
 		)
 		(uuid "5669c22c-bf33-434f-902b-a1af9ef289af")
 	)
-	(text "200 mA @ 3V0"
+	(text "200 mA @ 3V3"
 		(exclude_from_sim no)
 		(at 266.065 101.6 0)
 		(effects
@@ -3905,7 +3905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20cf25ec-070e-4b47-95c5-59569fb95aeb")
-		(property "Reference" "#PWR0411"
+		(property "Reference" "#PWR411"
 			(at 166.37 34.29 0)
 			(effects
 				(font
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 166.37 26.67 0)
+			(at 166.37 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3955,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0411")
+					(reference "#PWR411")
 					(unit 1)
 				)
 			)
@@ -4814,7 +4814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 251.46 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4823,7 +4823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6393b6f1-943a-4380-add1-15f47d5aa1b8")
-		(property "Reference" "#PWR0427"
+		(property "Reference" "#PWR427"
 			(at 251.46 104.14 0)
 			(effects
 				(font
@@ -4832,8 +4832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 251.46 96.52 0)
+		(property "Value" "+3V3"
+			(at 251.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4858,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -4873,7 +4900,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0427")
+					(reference "#PWR427")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae315889-37b7-4498-b7f5-fa40d2d03e05")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR426"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -6106,7 +6133,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 251.46 78.74 0)
+			(at 251.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,13 +6167,40 @@
 				(hide yes)
 			)
 		)
+		(property "manf" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1c453f4-e73a-428b-ab6d-2991005267d1")
 		)
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0426")
+					(reference "#PWR426")
 					(unit 1)
 				)
 			)

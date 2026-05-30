@@ -2973,7 +2973,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2994,7 +2994,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V0"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -3020,7 +3020,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3038,7 +3038,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V0_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3076,7 +3076,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -9380,7 +9380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddf61f9-65da-44aa-b366-67ca557a3436")
-		(property "Reference" "#PWR0615"
+		(property "Reference" "#PWR615"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -9390,7 +9390,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 215.9 177.8 0)
+			(at 215.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,7 +9430,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0615")
+					(reference "#PWR615")
 					(unit 1)
 				)
 			)
@@ -9446,7 +9446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11862e46-bba9-40a2-9e88-50faa63e5b55")
-		(property "Reference" "#PWR0608"
+		(property "Reference" "#PWR608"
 			(at 60.96 66.04 0)
 			(effects
 				(font
@@ -9456,7 +9456,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 60.96 58.42 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9496,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0608")
+					(reference "#PWR608")
 					(unit 1)
 				)
 			)
@@ -10452,7 +10452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f8ec30-acdc-4d5b-bcc7-0820d639857b")
-		(property "Reference" "#PWR0621"
+		(property "Reference" "#PWR621"
 			(at 331.47 52.07 0)
 			(effects
 				(font
@@ -10462,7 +10462,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 331.47 44.45 0)
+			(at 331.47 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,14 +10502,14 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0621")
+					(reference "#PWR621")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 379.73 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10518,7 +10518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a903768-adc6-4f1c-ac18-22709f01bca0")
-		(property "Reference" "#PWR0631"
+		(property "Reference" "#PWR631"
 			(at 379.73 161.29 0)
 			(effects
 				(font
@@ -10527,8 +10527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 379.73 153.67 0)
+		(property "Value" "+3V3"
+			(at 379.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10553,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 379.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 379.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 379.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 379.73 157.48 0)
 			(effects
 				(font
@@ -10568,14 +10595,14 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0631")
+					(reference "#PWR631")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 53.34 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10584,7 +10611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65abc10b-b406-47af-a926-4c113d08cc5d")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR605"
 			(at 53.34 175.26 0)
 			(effects
 				(font
@@ -10593,7 +10620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -10619,7 +10646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 171.45 0)
 			(effects
 				(font
@@ -10679,7 +10706,7 @@
 		(instances
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0605")
+					(reference "#PWR605")
 					(unit 1)
 				)
 			)
@@ -11161,7 +11188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 355.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11170,7 +11197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7343db06-7a1a-4793-a5f0-6fc7972d52e3")
-		(property "Reference" "#PWR0628"
+		(property "Reference" "#PWR628"
 			(at 355.6 52.07 0)
 			(effects
 				(font
@@ -11179,8 +11206,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 355.6 44.45 0)
+		(property "Value" "+3V3"
+			(at 355.6 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11205,7 +11232,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 355.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 355.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 355.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 355.6 48.26 0)
 			(effects
 				(font
@@ -11220,7 +11274,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0628")
+					(reference "#PWR628")
 					(unit 1)
 				)
 			)
@@ -12089,8 +12143,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cdd42ded-c215-4623-91bd-560d843f8a9f")
-		(property "Reference" "#PWR0625"
+		(property "Reference" "#PWR625"
 			(at 349.25 116.84 0)
 			(effects
 				(font
@@ -12100,7 +12155,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 349.25 109.22 0)
+			(at 349.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,13 +12225,40 @@
 				(hide yes)
 			)
 		)
+		(property "manf" ""
+			(at 349.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 349.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 349.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7dadf1c4-1543-4f58-b322-28db78d33186")
 		)
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0625")
+					(reference "#PWR625")
 					(unit 1)
 				)
 			)
@@ -12574,7 +12656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93ef6ac-64e6-48d3-9d2d-b7d14c1c037f")
-		(property "Reference" "#PWR0623"
+		(property "Reference" "#PWR623"
 			(at 347.98 52.07 0)
 			(effects
 				(font
@@ -12584,7 +12666,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 347.98 44.45 0)
+			(at 347.98 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12618,13 +12700,40 @@
 				(hide yes)
 			)
 		)
+		(property "manf" ""
+			(at 347.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 347.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 347.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ade5e038-5028-4357-85c2-cf0c9a01392d")
 		)
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0623")
+					(reference "#PWR623")
 					(unit 1)
 				)
 			)
@@ -13046,7 +13155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9774d3-1b22-4ea1-b489-e3c1479b3113")
-		(property "Reference" "#PWR0618"
+		(property "Reference" "#PWR618"
 			(at 237.49 171.45 0)
 			(effects
 				(font
@@ -13056,7 +13165,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 237.49 163.83 0)
+			(at 237.49 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13096,7 +13205,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0618")
+					(reference "#PWR618")
 					(unit 1)
 				)
 			)
@@ -13227,7 +13336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 356.87 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13236,7 +13345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe84bc5a-08e6-4775-8ea6-715d070154ec")
-		(property "Reference" "#PWR0630"
+		(property "Reference" "#PWR630"
 			(at 356.87 116.84 0)
 			(effects
 				(font
@@ -13245,8 +13354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 356.87 109.22 0)
+		(property "Value" "+3V3"
+			(at 356.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 356.87 113.03 0)
 			(effects
 				(font
@@ -13322,7 +13431,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0630")
+					(reference "#PWR630")
 					(unit 1)
 				)
 			)
