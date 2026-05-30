@@ -6,6 +6,10 @@
 
 - Change 3V0 to 3V3 supply (#14)
 
+**Removed:**
+
+- Remove speaker from pick and place data (#11)
+
 ## [1.0.0] - 2026-02-21
 
 **Added:**

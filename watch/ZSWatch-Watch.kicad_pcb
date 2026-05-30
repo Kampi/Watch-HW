@@ -9965,7 +9965,7 @@
 		(path "/c5103ceb-5325-4a84-a025-9638a412984e/ecef31af-e159-4d83-89cb-c5b343e56438/eaef6556-4fcb-48b8-91f5-d65bc6c7a009")
 		(sheetname "/Project Architecture/Extension/")
 		(sheetfile "Extension.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 6.4 -3.25)
 			(end 6.4 3.3)
