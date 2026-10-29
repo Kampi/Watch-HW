@@ -1,7 +1,7 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-v1b5kkxp/ZSWatch-Watch.kicad_sch")
-    (date "2026-10-21T09:32:56+0000")
+    (source "/tmp/tmp-kibot-net_sch_print-9n3p9rc6/ZSWatch-Watch.kicad_sch")
+    (date "2026-10-29T20:24:57+0000")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)	CONFORMAL COATING IS NOT REQUIRED.\n\n5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
     (textvar (name "BOARD_NAME") "Watch-DevKit-HW")
@@ -24,7 +24,7 @@
     (textvar (name "RELEASE_TITLE_1.2.0") "Version 1.2.0 not found.")
     (textvar (name "RELEASE_TITLE_1.2.1") "Version 1.2.1 not found.")
     (textvar (name "RELEASE_TITLE_UNRELEASED") "Version Unreleased not found.")
-    (textvar (name "REVISION") "1.1.0+ (Unreleased)")
+    (textvar (name "REVISION") "+ (Unreleased)")
     (textvar (name "SHEET_NAME_1") "Cover Page")
     (textvar (name "SHEET_NAME_10") "......................................")
     (textvar (name "SHEET_NAME_11") "......................................")
@@ -70,7 +70,7 @@
       (title_block
         (title "ZSWatch-Watch")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "ZSWatch-Watch.kicad_sch")
         (comment (number "1") (value ""))
@@ -86,7 +86,7 @@
       (title_block
         (title "Block-Diagram")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Block Diagram.kicad_sch")
         (comment (number "1") (value ""))
@@ -102,7 +102,7 @@
       (title_block
         (title)
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Power - Topology.kicad_sch")
         (comment (number "1") (value ""))
@@ -118,7 +118,7 @@
       (title_block
         (title "Power-Management")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Project Architecture.kicad_sch")
         (comment (number "1") (value ""))
@@ -134,7 +134,7 @@
       (title_block
         (title "Power-Management")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Power.kicad_sch")
         (comment (number "1") (value ""))
@@ -150,7 +150,7 @@
       (title_block
         (title "Peripherals")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Peripherals.kicad_sch")
         (comment (number "1") (value ""))
@@ -166,7 +166,7 @@
       (title_block
         (title "MCU")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "MCU.kicad_sch")
         (comment (number "1") (value ""))
@@ -182,7 +182,7 @@
       (title_block
         (title "Extension")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Extension.kicad_sch")
         (comment (number "1") (value ""))
@@ -198,7 +198,7 @@
       (title_block
         (title "Revision-History")
         (company "ZSWatch")
-        (rev "1.1.0+ (Unreleased)")
+        (rev "+ (Unreleased)")
         (date "2025-07-13")
         (source "Revision History.kicad_sch")
         (comment (number "1") (value ""))
